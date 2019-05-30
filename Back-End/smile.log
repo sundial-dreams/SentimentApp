@@ -1,0 +1,18 @@
+[ 21.05.2019 - 23:51:33 ]
+    (MSG) [2] in SMILExtract : openSMILE starting!
+[ 21.05.2019 - 23:51:33 ]
+    (MSG) [2] in SMILExtract : config file is: E:/OpenSmile/opensmile-2.3.0/config/IS09_emotion.conf
+[ 21.05.2019 - 23:51:33 ]
+    (MSG) [2] in cComponentManager : successfully registered 95 component types.
+[ 21.05.2019 - 23:51:33 ]
+    (MSG) [2] in instance 'lldsink' : No filename given, disabling this sink component.
+[ 21.05.2019 - 23:51:33 ]
+    (MSG) [2] in instance 'lldhtksink' : No filename given, disabling this sink component.
+[ 21.05.2019 - 23:51:33 ]
+    (MSG) [2] in instance 'lldarffsink' : No filename given, disabling this sink component.
+[ 21.05.2019 - 23:51:33 ]
+    (MSG) [2] in instance 'csvsink' : No filename given, disabling this sink component.
+[ 21.05.2019 - 23:51:33 ]
+    (MSG) [2] in instance 'htksink' : No filename given, disabling this sink component.
+[ 21.05.2019 - 23:51:33 ]
+    (ERROR) [1] in cWaveSource : failed reading wave header from file 'D:/Project/Python Project/SentimentAppBackEnd/resource/temp/wxe18b6ab5750da9ad.o6zAJs2GyI6b8wwSB4FWZ1dd67iQ.LuAxLxyDCRgn6fdc55d19d49b5f4e34d29ccb4df72e2.durationTime=3519.aac'! Maybe this is not a WAVE file?

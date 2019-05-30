@@ -1,0 +1,6 @@
+{
+  "openSmileBin": "/OpenSmile/opensmile-2.3.0/bin/Win32",
+  "openSmileEmotion": "/OpenSmile/opensmile-2.3.0/config/IS09_emotion.conf",
+  "ffmpegBin": "/ffmpeg/bin",
+  "featureFile": "./resource/feature.mat"
+}

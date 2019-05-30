@@ -1,0 +1,18 @@
+[ 29.05.2019 - 19:27:07 ]
+    (MSG) [2] in SMILExtract : openSMILE starting!
+[ 29.05.2019 - 19:27:07 ]
+    (MSG) [2] in SMILExtract : config file is: D:/My Project/Python Project/SentimentAppBackEnd/resource/support/OpenSmile/opensmile-2.3.0/config/IS09_emotion.conf
+[ 29.05.2019 - 19:27:07 ]
+    (MSG) [2] in cComponentManager : successfully registered 95 component types.
+[ 29.05.2019 - 19:27:07 ]
+    (MSG) [2] in instance 'lldsink' : No filename given, disabling this sink component.
+[ 29.05.2019 - 19:27:07 ]
+    (MSG) [2] in instance 'lldhtksink' : No filename given, disabling this sink component.
+[ 29.05.2019 - 19:27:07 ]
+    (MSG) [2] in instance 'lldarffsink' : No filename given, disabling this sink component.
+[ 29.05.2019 - 19:27:07 ]
+    (MSG) [2] in instance 'csvsink' : No filename given, disabling this sink component.
+[ 29.05.2019 - 19:27:07 ]
+    (MSG) [2] in instance 'htksink' : No filename given, disabling this sink component.
+[ 29.05.2019 - 19:27:07 ]
+    (ERROR) [1] in cWaveSource : failed to open input file 'D:/My Project/Python Project/SentimentAppBackEnd/resource/temp/wxe18b6ab5750da9ad.o6zAJs2GyI6b8wwSB4FWZ1dd67iQ.eU776PxZ7Hri1569bb6bc901ebe8c187ce892427e9af.durationTime=1879.mp3.wav'

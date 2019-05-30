@@ -1,0 +1,92 @@
+.record__button__view {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  position: relative;
+
+  .record__button__text {
+    font-size: 20px;
+    color: darkorange;
+    transition: .3s;
+    opacity: 0;
+    &.record__button__text__show {
+      opacity: 1;
+    }
+    .record__button__text__time {
+      font-size: 30px;
+      color: gainsboro;
+    }
+  }
+
+  .record__button__btn {
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: deepskyblue;
+    display: inline-block;
+    line-height: 150px;
+    text-align: center;
+    padding-top: 20px;
+    transition: .3s ease-in-out;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .1);
+
+    &.record__btn__active {
+      background: crimson;
+    }
+  }
+
+  .__btn__ {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-10%);
+    background: rgb(200, 200, 200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    transition: .3s ease-in-out;
+    opacity: 0;
+    left: 0;
+    box-shadow: 0 0 35px rgba(0, 0, 0, .05);
+    z-index: -10;
+  }
+
+  .record__button__cancel-btn {
+    .__btn__;
+    left: -200px;
+    opacity: 1;
+    background: deepskyblue;
+  }
+
+  .record__button__reset-btn {
+    .__btn__;
+    left: 300px;
+    opacity: 1;
+  }
+}
+.sentiment__view {
+  width: 100vw;
+  height: 200px;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  .sentiment__view__text {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+    .sentiment__view__sentiment {
+      display: block;
+      text-align: center;
+      color: lightcoral;
+      font-family: "Comic Sans MS";
+      font-size: 60px;
+      font-weight: bold;
+    }
+  }
+}
