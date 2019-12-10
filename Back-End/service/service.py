@@ -28,7 +28,6 @@ async def upload_file(req: Request) -> Response:
             file.write(chunk)
     mp3_path, wav_path = convert_audio(temp_file)
     f = feature(wav_path)
-    print(f)
     result = predict_sentiment(f)
     os.remove(mp3_path)
     os.remove(wav_path)

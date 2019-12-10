@@ -53,14 +53,12 @@ class Index extends Component<PageOwnProps | any, PageState> {
                 name: "temp.wav",
                 url: fetchUrl,
                 success: data => {
-                    console.log(data);
                     let value = JSON.parse(data.data);
                     let mySentiment = sentimentMap[(value as Response).data];
-                    console.log(mySentiment);
                     this.props.handleSentiment(mySentiment)
                 },
                 fail: err => {
-                    console.log(err)
+                    console.error(err)
                 }
             })
         })
@@ -73,9 +71,7 @@ class Index extends Component<PageOwnProps | any, PageState> {
             format: "mp3"
         })
     };
-    private handleStop = () => {
-        this.recorderManager.stop();
-    };
+    private handleStop = () => this.recorderManager.stop();
 
     render () {
         return (

@@ -20,7 +20,6 @@ def generate_feature(filepath: str) -> tuple:
     txt_path = temp_dir + os.path.basename(filepath) + ".txt"
     cmd = "cd \"{}\" && SMILExtract_Release -C \"{}\" -I \"{}\" -O \"{}\"" \
         .format(open_smile_bin, open_smile_emotion, filepath, txt_path)
-    print(cmd)
     os.system(cmd)
     return filepath, txt_path
 
